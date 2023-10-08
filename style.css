@@ -1,0 +1,56 @@
+body{
+    background-color: #F6F6F6;
+}
+.container{
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background-color: transparent;
+    margin: 0 auto;
+    background-image: url("https://i.pinimg.com/474x/ce/af/4a/ceaf4a4ea06922419651126355b72296.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.hour,.minute,.second{
+
+    border-radius: 12px;
+     position: absolute;
+       transform-origin: bottom;
+
+
+}
+.hour{
+    height: 25%;
+    width: 2%;
+    top: 25%;
+    background-color: black;
+    left: 48.3%;
+    
+}
+.minute{
+
+
+   
+    height: 30%;
+    width: 1%;
+    top: 20%;   
+    left: 48.7%;
+    background-color: blue;
+    
+
+
+
+}
+.second{
+
+  
+    height: 35%;
+    width: 0.7%;
+    top: 15%;
+    left: 48.9%;
+    background-color: red;
+
+}
